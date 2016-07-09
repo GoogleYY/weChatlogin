@@ -5,7 +5,7 @@
  * Date: 16-6-7
  * Time: 上午10:07
  */
-
+//微信手机授权
 class weixinUser{
 
     protected $m_appid;//应用唯一标识，在微信开放平台提交应用审核通过后获得
@@ -52,6 +52,8 @@ class weixinUser{
 
 }
 
+
+//微信PC授权
 class weChat_login
 {
     protected $m_token_url;
